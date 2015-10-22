@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="utf8" />
+    <title>BLE scanner</title>
+
+    <script>
+        // Redirect console.log to Evothings Workbench.
+        if (window.hyper && window.hyper.log) { console.log = hyper.log }
+    </script>
+
+    <script src="libs/jquery-2.1.1.js"></script>
+    <script src="cordova.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+    <script src="SensorAPI.js"></script>
+    <script src="libs/angular.js"></script>
+	<script src="app_angular.js"></script>
+
+
+
+</head>
+<body>
+<div ng-controller="DevicesCtrl">
+<table class="table">
+    <tr ng-repeat="device in devices">
+    	<td>
+            <p> {{device.name}}</p>
+    	</td>
+        <td ng-repeat="(key, val) in device">
+            <div  ng-if="key == 'sensors'">
+                <div ng-repeat="(serviceIndex, service) in val">
+                    <button ng-href='#here' name="{{serviceIndex}}" >
+                        Sensor {{serviceIndex}} auslesen
+                    </button>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+</table>
+</div>
+
+<button ng-click="stopScan()"> Stop Scanning </button>
+</body>
+</html>
