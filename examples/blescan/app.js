@@ -19,7 +19,7 @@ document.addEventListener('deviceready', function(){
 
     sens = new SensorAPI();
 
-    sens.loadDriver('libs/driver/easyble.js',{frequency:1500, TTL:5000});
+    sens.loadDriver('libs/driver/ble.js',{frequency:1500, TTL:5000});
     angular.bootstrap(document, ['tutorialApp']);
 
 
