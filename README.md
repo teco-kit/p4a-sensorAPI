@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/teco-kit/p4a-sensorAPI/badges/gpa.svg)](https://codeclimate.com/github/teco-kit/p4a-sensorAPI)
 SensorAPI.js
 ============
 The API provides an easy and consistent way to handle devices with sensors.
