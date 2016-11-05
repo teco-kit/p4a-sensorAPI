@@ -1,0 +1,10 @@
+{
+    "name": "sensorapijs",
+    "version": "1.0.0",
+    "license": "Apache",
+    "author": "Anton Truong <truong@teco.edu>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/teco-kit/p4a-sensorAPI.git"
+    }
+}
