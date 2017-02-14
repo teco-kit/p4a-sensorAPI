@@ -339,7 +339,12 @@ This is a complete simple driver with virtual devices and sensors.
 
 
 
-# Authors
+# Authors/Contributors
 -------
 
 * Anton Truong <truong@teco.edu>
+* @riedel
+* @simonbates
+
+
+The workwas supported by funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under [grant agreement no 610510](http://www.prosperity4all.eu). Visit [GPII Developerspace](http://developerspace.gpii.net) to find more useful accessibility resources.
