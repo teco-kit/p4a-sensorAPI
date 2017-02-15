@@ -347,4 +347,4 @@ This is a complete simple driver with virtual devices and sensors.
 * @simonbates
 
 
-The workwas supported by funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under [grant agreement no 610510](http://www.prosperity4all.eu). Visit [GPII Developerspace](http://developerspace.gpii.net) to find more useful accessibility resources.
+The work was supported by funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under [grant agreement no 610510](http://www.prosperity4all.eu). Visit [GPII Developerspace](http://developerspace.gpii.net) to find more useful accessibility resources.
